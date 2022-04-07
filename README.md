@@ -1,2 +1,2 @@
-<b><h1>Powerful library to handle full-screen mode in WebView<h1/><b/>
+<b><h2>Powerful library to handle full-screen mode in WebView</h2></b>
 
