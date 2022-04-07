@@ -34,4 +34,8 @@ The implementation is very easy.
 * Remove full-screen programmatically
   ```java
      fullScreenClient.exitFullScreen();
+  ``` 
+* Check if `WebView` is displaying full-screen
+  ```java
+     fullScreenClient.isFullScreen //returns boolean
   ```   
