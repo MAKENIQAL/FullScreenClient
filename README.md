@@ -7,7 +7,7 @@ The implementation is very easy.
   ```
   
 * or, if you want to add `WebView` after initializing,  
-  ```sh
+  ```java
   FullScreenClient fullScreenClient = new FullScreenClient(this);
   fullScreenClient.register(webView); //add or change WebView
   ```
