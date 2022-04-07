@@ -31,3 +31,7 @@ The implementation is very easy.
             }
         });
   ```
+* Remove full-screen programmatically
+  ```java
+     fullScreenClient.exitFullScreen();
+  ```   
