@@ -2,7 +2,7 @@
 <br>
 The implementation is very easy.
 * Just initialize with `Context` and `Activity`
-  ```sh
+  ```java
   FullScreenClient fullScreenClient = new FullScreenClient(this,webView);
   ```
   
@@ -12,7 +12,8 @@ The implementation is very easy.
   fullScreenClient.register(webView); //add or change WebView
   ```
 * Set this for automation,
-  ```webView.setWebChromeClient(new WebChromeClient() {
+  ```java
+     webView.setWebChromeClient(new WebChromeClient() {
             @Override
             public void onShowCustomView(View view, CustomViewCallback callback) {
                 fullScreenClient.onShowCustomView(view, callback);
@@ -28,4 +29,4 @@ The implementation is very easy.
             public Bitmap getDefaultVideoPoster() {
                 return fullScreenClient.getDefaultVideoPoster();
             }
-        });
+        });```
