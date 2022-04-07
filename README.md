@@ -6,7 +6,7 @@ The implementation is very easy.
   FullScreenClient fullScreenClient = new FullScreenClient(this,webView);
   ```
   
-* if you want to add `WebView` after initializing  
+* or, if you want to add `WebView` after initializing,  
   ```sh
   FullScreenClient fullScreenClient = new FullScreenClient(this);
   fullScreenClient.register(webView); //add or change WebView
