@@ -9,4 +9,5 @@ The implementation is very easy.
 * if you want to add `WebView` after initializing  
   ```sh
   FullScreenClient fullScreenClient = new FullScreenClient(this);
+  fullScreenClient.register(webView);
   ```
