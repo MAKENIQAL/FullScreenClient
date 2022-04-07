@@ -30,4 +30,4 @@ The implementation is very easy.
                 return fullScreenClient.getDefaultVideoPoster();
             }
         });
-        ```
+  ```
