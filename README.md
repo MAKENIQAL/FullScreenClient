@@ -2,7 +2,6 @@
 <br>
 The implementation is very easy.
 * Just initialize in with `Context` and `Activity`
-<br>
   ```sh
   FullScreenClient fullScreenClient = new FullScreenClient(this,webView);
   ```
