@@ -11,3 +11,21 @@ The implementation is very easy.
   FullScreenClient fullScreenClient = new FullScreenClient(this);
   fullScreenClient.register(webView); //add or change WebView
   ```
+* Set this for automation,
+  ```webView.setWebChromeClient(new WebChromeClient() {
+            @Override
+            public void onShowCustomView(View view, CustomViewCallback callback) {
+                fullScreenClient.onShowCustomView(view, callback);
+            }
+
+            @Override
+            public void onHideCustomView() {
+                fullScreenClient.onHideCustomView();
+            }
+
+            @Nullable
+            @Override
+            public Bitmap getDefaultVideoPoster() {
+                return fullScreenClient.getDefaultVideoPoster();
+            }
+        });```  
