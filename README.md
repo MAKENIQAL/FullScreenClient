@@ -29,4 +29,5 @@ The implementation is very easy.
             public Bitmap getDefaultVideoPoster() {
                 return fullScreenClient.getDefaultVideoPoster();
             }
-        });```
+        });
+        ```
