@@ -38,6 +38,7 @@ The implementation is very easy.
 * Check if `WebView` is displaying full-screen
   ```java
      fullScreenClient.isFullScreen //returns boolean
+  ```   
   ```java
      button.setOnClickListener(new View.OnClickListener() {
             @Override
