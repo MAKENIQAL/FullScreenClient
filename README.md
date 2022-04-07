@@ -1,2 +1,2 @@
-# Full-screen-client-for-webview
-Powerful library for handling full-screen mode in WebView
+#Powerful library to handle full-screen mode in WebView
+
