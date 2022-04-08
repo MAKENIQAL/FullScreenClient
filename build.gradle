@@ -2,7 +2,6 @@ plugins {
     id 'com.android.library'
     //id 'com.github.decendents.android-maven'
 }
-version("1.0final")
 
 android {
     compileSdk 32
